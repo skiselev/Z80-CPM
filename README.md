@@ -42,6 +42,7 @@ Please refer to [Assembly Instructions](Assembly_Instructions.md) document
 ### Schematic and PCB Layout
 
 * [Schematic - Version 1.0](KiCad/Z80-CPM-Schematic-1.0.pdf)
+* [PCB Layout - Version 1.1](KiCad/Z80-CPM-Board-1.1.pdf)
 * [PCB Layout - Version 1.0](KiCad/Z80-CPM-Board-1.0.pdf)
 
 ### Memory Configuration Input/Output Ports
@@ -181,14 +182,19 @@ Oscillator Socket  | X1        | 4 pin DIP, Half Can                         | 1
 
 ### Changes
 
+* Version 1.1
+  * Fix cosmetic issues:
+    * Swap C5 with C8 and C4 with C6.
+    * Modify C10 footpring to clearly show negative terminal.
+
 * Version 1.0
-  * Initial version
+  * Initial version.
 
 ### Known Issues
 
 * Version 1.0
   * Cosmetic issues:
-    * C5 and C8, and C6 and C4 should be swapped
+    * C5 and C8, and C6 and C4 should be swapped.
     * C10 should have more clear marking for the negative terminal.
 
 ## Red Tape
