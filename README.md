@@ -31,11 +31,7 @@ Minimal CP/M computer system can be built using Z80-CPM module, a backplane, and
 * Processor: Zilog* Z80 CPU (CMOS version - Z84C00)
 * Memory: 512 KiB battery-backed SRAM, 512 KiB Flash ROM, RomWBW compatible memory pager
 * Bus: RC2014* compatible
-* Microprocessor Supervisor:
-  * Reset generation
-  * SRAM battery backup
-  * Power failure NMI
-  * Watchdog
+* Microprocessor Supervisor for system reset generation
 
 ## Assembly Instructions
 
@@ -49,7 +45,7 @@ Please refer to [Assembly Instructions](Assembly_Instructions.md) document
 * [PCB Layout - Version 1.0](KiCad/Z80-CPM-Board-1.0.pdf)
 
 ### Memory Configuration Input/Output Ports
-Z80-CPM supports up to 512 KiB of RAM and up to 512 KiB of Flash ROM. It has a simple memory bank switching mechanism with two 32 KiB memory banks, inspired by Steve Cousin's [SC602](https://smallcomputercentral.com/rcbus/sc600-series/sc602-rcbus-z80-memory-module/) Memory Module. This memory bank mechanism provides minimal required functionality for RomWBW RCZ80_std.rom image to be used without any modifications.
+Z80-CPM supports up to 512 KiB of RAM and up to 512 KiB of Flash ROM. It has a simple memory bank switching mechanism with two 32 KiB memory banks, inspired by Steve Cousin's [SC602](https://smallcomputercentral.com/rcbus/sc600-series/sc602-rcbus-z80-memory-module/) Memory Module. This memory bank mechanism provides minimal required functionality for the RomWBW RCZ80_std.rom image to be used without any modifications.
 The upper 32 KiB bank is always mapped to the top 32 KiB of the physical RAM. The lower 32 KiB bank can be mapped to any 32 KiB size page in the physical memory. The memory page is selected by writting either 0x78 or 0x79 I/O ports, that are mapped to the same page select register.
 
 #### 0x78 or 0x79 - Memory Page Select Register (Write-only)
@@ -144,8 +140,9 @@ Pin | Signal Name | Description                             | Pin | Signal Name 
 
 #### Version 1.0
 
-Mouser projects - all components except of the PCB:
-* [Z80-CPM project](https://www.mouser.com/Tools/Project/Share?AccessID=cf00dde769) - All components except of the PCB, Z80 CPU, CPU supervisor (optional), and C11 capacitor (optional).
+Mouser projects - All components except of the PCB and the CPU:
+* [Z80-CPM project](https://www.mouser.com/Tools/Project/Share?AccessID=cf00dde769)
+  * Note that optional CPU supervisor parts: U9 DS1233 CPU supervisor, C11 1 nF capacitor, and SW1 tactile switch are included in this project.
 
 Z80-CPM project on Tindie:
 * [Complete kit](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-kit/).
@@ -190,8 +187,9 @@ Oscillator Socket  | X1        | 4 pin DIP, Half Can                         | 1
 ### Known Issues
 
 * Version 1.0
-  * No CPLD STATUS register read back
-    * Workaround: Program CPLD with the version 1.1 fuse map. Cut LED_OUT trace at D2 LED (negative terminal), connect U4 pin 36 to U1 pin 21 (RD signal) with a piece of wire. If diagnostic LED is needed, connect negative terminal of the LED to U5 pin 11 (WDOG signal)
+  * Cosmetic issues:
+    * C5 and C8, and C6 and C4 should be swapped
+    * C10 should have more clear marking for the negative terminal.
 
 ## Red Tape
 
@@ -205,4 +203,3 @@ Z80-CPM is an open source hardware project. The hardware design itself, includin
 
 * "RC2014" is a registered trademark of RFC2795 Ltd.
 * Other names and brands may be claimed as the property of others.
-
