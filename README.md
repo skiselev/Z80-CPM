@@ -160,7 +160,7 @@ Integrated Circuit | U5        | 74HCT138 - 3-to-8 Decoder, 16 pin DIP       | 1
 Integrated Circuit | U6, U7    | 74AHCT32 - Quad 2-Input OR Gate, 14 pin DIP | 2        | Mouser [595-SN74AHCT32N](https://www.mouser.com/ProductDetail/595-SN74AHCT32N)
 Integrated Circuit | U8        | 74AHCT00 - Quad 2-Input NAND Gate, 14 pin DIP | 1      | Mouser [595-SN74AHCT00N](https://www.mouser.com/ProductDetail/595-SN74AHCT00N)
 Integrated Circuit | U9        | DS1233-5 - CPU Supervisor, 5V, TO-92-3      | 1        | Mouser [700-DS1233-5](https://www.mouser.com/ProductDetail/700-DS1233-5). Note U9 is an optional on-board CPU supervisor.
-Oscillator         | X1        | 7.3728 MHz, CMOS oscillator, half can       | 1        | Mouser [774-MXO45HS-3C-7.3](https://www.mouser.com/ProductDetail/774-MXO45HS-3C-7.3) or [520-2200B-073](https://www.mouser.com/ProductDetail/520-2200B-073/)
+Oscillator         | X1        | 7.3728 MHz, CMOS oscillator, half can       | 1        | Mouser [774-MXO45HS-3C-7.3](https://www.mouser.com/ProductDetail/774-MXO45HS-3C-7.3) or [520-2200B-073](https://www.mouser.com/ProductDetail/520-2200B-073)
 Pin Header         | J1        | 40x2 pin header, 2.54 mm pitch, right angle | 1        | Mouser [737-PH2RA-80-UA](https://www.mouser.com/ProductDetail/737-PH2RA-80-UA), [517-5121TG](https://www.mouser.com/ProductDetail/517-5121TG)
 Pin Header         | JP1       | 3x1 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-68000-203HLF](https://www.mouser.com/ProductDetail/649-68000-203HLF). Optional: JTAG header
 Pin Header         | JP2, JP3  | 2x2 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-67996-104HLF](https://www.mouser.com/ProductDetail/649-67996-104HLF). Optional: JTAG header
