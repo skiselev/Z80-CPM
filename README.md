@@ -29,7 +29,7 @@ Minimal CP/M computer system can be built using Z80-CPM module, a backplane, and
 
 ### Specifications
 * Processor: Zilog* Z80 CPU (CMOS version - Z84C00)
-* Memory: 512 KiB battery-backed SRAM, 512 KiB Flash ROM, RomWBW compatible memory pager
+* Memory: 512 KiB SRAM, 512 KiB Flash ROM, RomWBW compatible memory pager
 * Bus: RCBus, RC2014* compatible
 * Microprocessor Supervisor for system reset generation
 
