@@ -23,7 +23,7 @@ Z80-CPM is an RCBus and RC2014* compatible module, designed to run [RomWBW](http
 * 512k ROM 512k RAM Module - Simplified version, compatible with RomWBW firmware
 * Clock and Reset Module
 
-Minimal CP/M computer system can be built using Z80-CPM module, a backplane, and a serial port module, for example Steve Cousins' [SC716](https://smallcomputercentral.com/sc716-rcbus-z80-sio-2-serial-module/) or [SC725](https://smallcomputercentral.com/sc725-rcbus-serial-and-timer-module/) Z80 SIO modules, or MC68B50 ACIA. Additional storage module is not required, since RomWBW utilizes part of ROM and SRAM for ROM and RAM disks respecitvely, but a Compact Flash module can be added for additional storage. For a compact system, a 3-slot [SC723](https://smallcomputercentral.com/sc723-rcbus-backplane-3/) can be used.
+Minimal CP/M computer system can be built using Z80-CPM module, a backplane, and a serial port module, for example Steve Cousins' [SC716](https://smallcomputercentral.com/sc716-rcbus-z80-sio-2-serial-module/) or [SC725](https://smallcomputercentral.com/sc725-rcbus-serial-and-timer-module/) Z80 SIO modules, or MC68B50 ACIA. A Compact Flash module can be added for additional storage. For a compact system, a 3-slot [SC723](https://smallcomputercentral.com/sc723-rcbus-backplane-3/) can be used.
 
 ![Z80-CPM Assembled Board](images/Z80-CPM-1.0-Assembled_Board-1024px.jpg)
 
