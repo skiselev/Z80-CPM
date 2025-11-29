@@ -147,11 +147,11 @@ Mouser projects - All components except of the PCB and the CPU:
 
 Z80-CPM project on Tindie:
 * [Complete kit](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-kit/).
-* [Z80-CPU PCB and an optional preprogrammed Flash ROM](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-pcb/).
+* [Z80-CPU PCB](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-pcb/).
 
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes 
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
-PCB                |           | Z80-CPM PCB - Version 1.0                   | 1        | Buy from my Tindie store: [Complete kit](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-kit/); [Z80-CPM PCB and an optional preprogrammed Flash ROM](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-pcb/), or order from a PCB manufacturer of your choice using provided Gerber or KiCad files
+PCB                |           | Z80-CPM PCB - Version 1.0                   | 1        | Buy from my Tindie store: [Complete kit](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-kit/); [Z80-CPM PCB](https://www.tindie.com/products/weird/z80-cpm-rcbus-module-pcb/), or order from a PCB manufacturer of your choice using provided Gerber or KiCad files
 Integrated Circuit | U1        | Z84C00xxVEG - Z80 CPU, CMOS, 44 pin PLCC    | 1        | Mouser [692-Z84C0010VEG](https://www.mouser.com/ProductDetail/692-Z84C0010VEG)
 Integrated Circuit | U2        | SST39SF040 - 512 KiB Flash ROM, 32 pin PLCC | 1        | Mouser [804-39SF0407CNHE](https://www.mouser.com/ProductDetail/804-39SF0407CNHE)
 Integrated Circuit | U3        | AS6C4008 - 512 KiB SRAM, 32 pin DIP         | 1        | Mouser [913-AS6C4008-55PCN](https://www.mouser.com/ProductDetail/913-AS6C4008-55PCN)
