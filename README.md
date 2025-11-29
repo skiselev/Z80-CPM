@@ -162,8 +162,8 @@ Integrated Circuit | U8        | 74AHCT00 - Quad 2-Input NAND Gate, 14 pin DIP |
 Integrated Circuit | U9        | DS1233-5 - CPU Supervisor, 5V, TO-92-3      | 1        | Mouser [700-DS1233-5](https://www.mouser.com/ProductDetail/700-DS1233-5). Note U9 is an optional on-board CPU supervisor.
 Oscillator         | X1        | 7.3728 MHz, CMOS oscillator, half can       | 1        | Mouser [774-MXO45HS-3C-7.3](https://www.mouser.com/ProductDetail/774-MXO45HS-3C-7.3) or [520-2200B-073](https://www.mouser.com/ProductDetail/520-2200B-073)
 Pin Header         | J1        | 40x2 pin header, 2.54 mm pitch, right angle | 1        | Mouser [737-PH2RA-80-UA](https://www.mouser.com/ProductDetail/737-PH2RA-80-UA), [517-5121TG](https://www.mouser.com/ProductDetail/517-5121TG)
-Pin Header         | JP1       | 3x1 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-68000-203HLF](https://www.mouser.com/ProductDetail/649-68000-203HLF). Optional: JTAG header
-Pin Header         | JP2, JP3  | 2x2 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-67996-104HLF](https://www.mouser.com/ProductDetail/649-67996-104HLF). Optional: JTAG header
+Pin Header         | JP1       | 3x1 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-68000-203HLF](https://www.mouser.com/ProductDetail/649-68000-203HLF).
+Pin Header         | JP2, JP3  | 2x2 pin header, 2.54 mm pitch, vertical     | 1        | Mouser [649-67996-104HLF](https://www.mouser.com/ProductDetail/649-67996-104HLF).
 Jumper             | JP1 - JP3 | Shunt, 2 pin 2.54 mm pitch                  | 3        | Mouser [806-SX1100-B](https://www.mouser.com/ProductDetail/806-SX1100-B).
 Tactile switch     | SW1       | Tactile switch, 6 mm, right angle           | 1        | Mouser [653-B3F-3152](https://www.mouser.com/ProductDetail/653-B3F-3152). SW1 is an optional reset switch.
 Capacitor          | C1 - C9   | 0.1 uF, 50V, MLCC, 5 mm pitch               | 9        | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5).
